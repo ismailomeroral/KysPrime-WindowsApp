@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Users\isor5\OneDrive\Masaüstü\|ftp://win8032.site4now.net/|C:\Users\isor5\Desktop\</PublishUrlHistory>
+    <InstallUrlHistory>http://emmenedur-001-site1.itempurl.com/|http://kysprime-001-site1.itempurl.com/|http://localhost:8080/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>http://kysprime-001-site1.itempurl.com/application files/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartAction>Project</StartAction>
+    <StartURL>
+    </StartURL>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <EnableSQLServerDebugging>false</EnableSQLServerDebugging>
+    <StartProgram>
+    </StartProgram>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DebugSecurityZoneURL>http://kysprime-001-site1.itempurl.com/Kysprime.html</DebugSecurityZoneURL>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_a8ded2_emmenedurModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tbl_geribidirim">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="gonderen" Type="varchar" MaxLength="50" />
+    <Property Name="metin" Type="varchar" MaxLength="100" />
+    <Property Name="sil_id" Type="bit" />
+    <Property Name="konu" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_kullanici">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ppurl" Type="varchar" MaxLength="100" />
+    <Property Name="isim" Type="varchar" MaxLength="50" />
+    <Property Name="sifre" Type="varchar" MaxLength="50" />
+    <Property Name="cevrim" Type="bit" />
+    <Property Name="sil_id" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_post">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="gonderen" Type="varchar" MaxLength="50" />
+    <Property Name="posturl" Type="varchar" MaxLength="100" />
+    <Property Name="cisiyet" Type="bit" />
+    <Property Name="kalp" Type="int" />
+    <Property Name="sil_id" Type="bit" />
+    <Property Name="cinsiyet" Type="bit" Nullable="false" />
+    <Property Name="postimg" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityContainer Name="db_a8ded2_emmenedurModelStoreContainer">
+    <EntitySet Name="tbl_geribidirim" EntityType="Self.tbl_geribidirim" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_kullanici" EntityType="Self.tbl_kullanici" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_post" EntityType="Self.tbl_post" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

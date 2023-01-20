@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kysprime", "Kysprime\Kysprime.csproj", "{FFB543F3-36D6-4E03-98A9-C26003584DFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFB543F3-36D6-4E03-98A9-C26003584DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB543F3-36D6-4E03-98A9-C26003584DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB543F3-36D6-4E03-98A9-C26003584DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB543F3-36D6-4E03-98A9-C26003584DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6F7C1B6-CDFE-464A-AFA4-F725FDE4CB70}
+	EndGlobalSection
+EndGlobal

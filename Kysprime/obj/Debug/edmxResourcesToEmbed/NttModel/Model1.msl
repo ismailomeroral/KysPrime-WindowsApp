@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_a8ded2_emmenedurModelStoreContainer" CdmEntityContainer="db_a8ded2_emmenedurEntities">
+    <EntitySetMapping Name="tbl_geribidirim">
+      <EntityTypeMapping TypeName="db_a8ded2_emmenedurModel.tbl_geribidirim">
+        <MappingFragment StoreEntitySet="tbl_geribidirim">
+          <ScalarProperty Name="konu" ColumnName="konu" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="gonderen" ColumnName="gonderen" />
+          <ScalarProperty Name="metin" ColumnName="metin" />
+          <ScalarProperty Name="sil_id" ColumnName="sil_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_kullanici">
+      <EntityTypeMapping TypeName="db_a8ded2_emmenedurModel.tbl_kullanici">
+        <MappingFragment StoreEntitySet="tbl_kullanici">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ppurl" ColumnName="ppurl" />
+          <ScalarProperty Name="isim" ColumnName="isim" />
+          <ScalarProperty Name="sifre" ColumnName="sifre" />
+          <ScalarProperty Name="cevrim" ColumnName="cevrim" />
+          <ScalarProperty Name="sil_id" ColumnName="sil_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_post">
+      <EntityTypeMapping TypeName="db_a8ded2_emmenedurModel.tbl_post">
+        <MappingFragment StoreEntitySet="tbl_post">
+          <ScalarProperty Name="postimg" ColumnName="postimg" />
+          <ScalarProperty Name="cinsiyet" ColumnName="cinsiyet" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="gonderen" ColumnName="gonderen" />
+          <ScalarProperty Name="posturl" ColumnName="posturl" />
+          <ScalarProperty Name="cisiyet" ColumnName="cisiyet" />
+          <ScalarProperty Name="kalp" ColumnName="kalp" />
+          <ScalarProperty Name="sil_id" ColumnName="sil_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

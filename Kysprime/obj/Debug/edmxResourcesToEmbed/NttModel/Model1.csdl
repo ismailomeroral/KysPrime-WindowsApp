@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_a8ded2_emmenedurModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tbl_geribidirim">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="gonderen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="metin" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="sil_id" Type="Boolean" />
+    <Property Name="konu" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_kullanici">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ppurl" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="isim" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sifre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="cevrim" Type="Boolean" />
+    <Property Name="sil_id" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tbl_post">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="gonderen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="posturl" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="cisiyet" Type="Boolean" />
+    <Property Name="kalp" Type="Int32" />
+    <Property Name="sil_id" Type="Boolean" />
+    <Property Name="cinsiyet" Type="Boolean" Nullable="false" />
+    <Property Name="postimg" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="db_a8ded2_emmenedurEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tbl_geribidirim" EntityType="Self.tbl_geribidirim" />
+    <EntitySet Name="tbl_kullanici" EntityType="Self.tbl_kullanici" />
+    <EntitySet Name="tbl_post" EntityType="Self.tbl_post" />
+  </EntityContainer>
+</Schema>
